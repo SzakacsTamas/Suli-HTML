@@ -3,18 +3,26 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+body
+{
+    margin: 0%;
+}
+
 header
 {
     height: 100px;
     padding: 20px;
     text-align: right;
+    background-image: url("Erdély.jpg");
+    background-position-y: -250px;
+    color: whitesmoke;
 }
 
 header{
      background-color: antiquewhite;
     }
 nav{
-    background-color: aqua;
+    background-color: rgb(22, 122, 122);
 }
 .jobbsav{
     background-color: brown;
@@ -59,14 +67,48 @@ footer{
 
     
     
+nav
+{
+    color: rgb(45, 196, 58, 0.932);
+    padding-left: 20px;
+}
 
+nav a
+{
+    color: whitesmoke;
+    text-decoration: none;
 
+}
 
+nav li
+{
+    list-style: none;
+    padding: 25px;
+
+}
+    
+
+nav ul
+{
+    padding: 0%;
+}    
+
+nav a:hover li
+{
+    color: black;
+    background-color: whitesmoke;
+}
+footer
+{
+    text-align: center;
+    min-height: 50px;
+    padding-top: 15px;
+}
 
 /*monitor*/
 @media only screen and (min-width:1200px)
 {
-    footer{background-color: red;}
+    footer{background-color: gray;}
     
 }
 
