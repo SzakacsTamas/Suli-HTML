@@ -197,6 +197,7 @@ div h3
     color: black;
     margin: 0%;
     text-align: center;
+    border-bottom: 2px solid;
 }
 .infobox
 {
