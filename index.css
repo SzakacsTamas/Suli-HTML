@@ -217,3 +217,9 @@ div h3
     text-decoration: underline;
     font-variant: small-caps;
 }
+.tartalom picture *
+{
+    max-width: 80%;
+    float: left;
+    margin-right: 30px;
+}
