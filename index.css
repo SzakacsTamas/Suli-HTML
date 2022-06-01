@@ -223,3 +223,13 @@ div h3
     float: left;
     margin-right: 30px;
 }
+.kep
+{
+    max-width: 280px;
+    float: right;
+}
+.kep2
+{
+    max-width: 350px;
+    float: left;
+}
