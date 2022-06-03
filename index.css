@@ -237,3 +237,15 @@ div h3
 {
     max-width: 400px;
 }
+.kep_talas
+{
+    height: 25%;
+    width: 25%;
+    float: right;
+}
+.kep_talas2
+{
+    height: 25%;
+    width: 25%;
+    float: left;
+}
